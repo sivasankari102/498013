@@ -1,0 +1,43 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Sivasankari Sureshrajadurai E-Portfolio"
+  description: "MBA Student – IT Professional – Strategic Thinker – Team-Oriented Leader"
+  
+  navbar:
+    left:
+      - text: "About Me"
+        href: index.qmd
+      - text: "Resume"
+        href: resume.qmd
+      - text: "Projects/Case Studies"
+        href: projects.qmd
+      - text: "Skills & Certifications"
+        href: skills.qmd
+      - text: "Leadership"
+        href: leadership.qmd
+      - text: "Community Service"
+        href: community-service.qmd
+      - text: "Contact"
+        href: contact.qmd
+      - text: "LLM Use"
+        href: llm-acknowledgment.qmd
+    
+  page-footer:
+    left: "© 2025 Sivasankari Sureshrajadurai"
+    right: 
+      - icon: linkedin
+        href: https://linkedin.com/in/sivasankari-sureshrajadurai
+      - icon: envelope
+        href: mailto:contact.sivasankari@outlook.com
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-location: right
+    code-fold: false
+    smooth-scroll: true
